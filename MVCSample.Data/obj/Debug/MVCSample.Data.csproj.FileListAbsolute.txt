@@ -1,0 +1,12 @@
+E:\Programs\SampleProjects\MVCSample\MVCSample.Data\bin\Debug\MVCSample.Data.dll.config
+E:\Programs\SampleProjects\MVCSample\MVCSample.Data\bin\Debug\MVCSample.Data.dll
+E:\Programs\SampleProjects\MVCSample\MVCSample.Data\bin\Debug\MVCSample.Data.pdb
+E:\Programs\SampleProjects\MVCSample\MVCSample.Data\bin\Debug\EntityFramework.dll
+E:\Programs\SampleProjects\MVCSample\MVCSample.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\Programs\SampleProjects\MVCSample\MVCSample.Data\bin\Debug\MVCSample.Core.dll
+E:\Programs\SampleProjects\MVCSample\MVCSample.Data\bin\Debug\MVCSample.Core.pdb
+E:\Programs\SampleProjects\MVCSample\MVCSample.Data\bin\Debug\EntityFramework.xml
+E:\Programs\SampleProjects\MVCSample\MVCSample.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\Programs\SampleProjects\MVCSample\MVCSample.Data\obj\Debug\MVCSample.Data.csprojResolveAssemblyReference.cache
+E:\Programs\SampleProjects\MVCSample\MVCSample.Data\obj\Debug\MVCSample.Data.dll
+E:\Programs\SampleProjects\MVCSample\MVCSample.Data\obj\Debug\MVCSample.Data.pdb

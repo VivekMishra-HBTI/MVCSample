@@ -1,0 +1,71 @@
+﻿@model MVCSample.Web.Models.AlbumDetailModel
+@{
+    ViewBag.Title = "Album Detail";
+}
+
+<h2>Album Detail</h2>
+<style>
+    .form-left-object {
+        width: 134px;
+    }
+
+    .box-caption {
+        margin: 20px 20px 0px 38px;
+    }
+
+    .formRow {
+        width: 411px;
+    }
+</style>
+
+@using (Html.BeginForm("AlbumDetail", "AlbumDetail", FormMethod.Post))
+{
+    <div class="loginContainer">
+        <div id="latestnews" style="padding: 0px 0px 0px 45px;width:510px">
+            <div id="img-box-text">
+                <br />
+                <div class="formRow">
+                    <div class="form-left-object">
+                        @Html.LabelFor(model => model.AlbumName)
+                    </div>
+                    <div class="form-right-object">
+                        @Html.TextBoxFor(model => model.AlbumName, new { @maxlength = "10", size = "30", Class = "ib", @style = "padding-left:10px", tabindex = 3 })
+                    </div>
+                    <div class="clearFix"></div>
+                    <br>
+                </div>
+                <div class="formRow">
+                    <div class="form-left-object">
+                        @Html.LabelFor(model => model.Artist)
+                    </div>
+                    <div class="form-right-object">
+                        @Html.TextBoxFor(model => model.Artist, new { @maxlength = "10", size = "30", Class = "ib", @style = "padding-left:10px", tabindex = 3 })
+                    </div>
+                    <div class="clearFix"></div>
+                    <br>
+                </div>
+                <div class="formRow">
+                    <div class="form-left-object">
+                        @Html.LabelFor(model => model.Genre)
+                    </div>
+                    <div class="form-right-object">
+                        @Html.TextBoxFor(model => model.Genre, new { @maxlength = "10", size = "30", Class = "ib", @style = "padding-left:10px", tabindex = 3 })
+                    </div>
+                    <div class="clearFix"></div>
+                    <br>
+                </div>
+                <div class="formRow errorMsg" style="padding-left:110px">@Html.ValidationMessageFor(model => model.AlbumName)</div>
+                <div class="formRow errorMsg" style="padding-left:110px;width:400px">
+                    @ViewBag.Message
+                </div>
+                <br>
+                <div>
+                    <input class="button green loginButton" type="submit" name="button" id="button" value="Submit" style="margin-left: 100px;" tabindex=4>
+                </div>
+            </div>
+        </div>
+        <div class="clearFix">
+        </div>
+    </div>
+    <div class="clearFix"></div>
+}

@@ -1,0 +1,5 @@
+E:\Programs\SampleProjects\MVCSample\MVCSample.Core\bin\Debug\MVCSample.Core.dll
+E:\Programs\SampleProjects\MVCSample\MVCSample.Core\bin\Debug\MVCSample.Core.pdb
+E:\Programs\SampleProjects\MVCSample\MVCSample.Core\obj\Debug\MVCSample.Core.dll
+E:\Programs\SampleProjects\MVCSample\MVCSample.Core\obj\Debug\MVCSample.Core.pdb
+E:\Programs\SampleProjects\MVCSample\MVCSample.Core\obj\Debug\MVCSample.Core.csprojResolveAssemblyReference.cache

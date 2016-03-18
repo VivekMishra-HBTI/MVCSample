@@ -1,0 +1,67 @@
+﻿@model MVCSample.Web.Models.AlbumHomeModel
+@{
+    ViewBag.Title = "Payment Home";
+}
+
+<style>
+    .divcss {
+        height: 200px;
+        width: 200px;
+        border: inset;
+        border-width: thin;
+        float: left;
+    }
+</style>
+<div>
+    <h2 style="margin-left:19px">Album Home</h2>
+    @Html.ActionLink("Add New Album", "AlbumDetail", "AlbumDetail", "", new { @class = "button green", @style = "margin: 5px 5px 5px 19px;" })
+    <label class="SucsMsg" style="color: green;">@ViewBag.Album</label>
+</div>
+<br />
+<div id="tableContainer" class="tableContainer data-table ">
+    <table style="margin-left:19px" border="1" cellpadding="0" cellspacing="0" width="90%" class="scrollTable">
+
+        <thead class="fixedHeader">
+            <tr>
+                <th>Album Name</th>
+                <th>Artist</th>
+                <th>Genre</th>
+            </tr>
+        </thead>
+        @if (Model.Albums.Count < 1)
+        {
+            <tbody class="scrollContent2">
+                <tr>
+                    <td colspan="3">
+                        Sorry. There are no albums to display.
+                    </td>
+                </tr>
+
+
+            </tbody>
+        }
+        else
+        {
+            <tbody class="scrollContent2">
+                @foreach (var album in Model.Albums)
+                {
+                    <tr>
+                        <td style="padding:0px 0px 0px 4px">@album.AlbumName</td>
+                        <td style="padding:0px 0px 0px 4px">@album.Artist</td>
+                        <td style="padding:0px 0px 0px 4px">@album.Genre</td>
+                    </tr>
+                }
+            </tbody>
+        }
+    </table>
+</div>
+<br />
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+E:\Programs\SampleProjects\MVCSample\MVCSample.Services\bin\Debug\MVCSample.Services.dll
+E:\Programs\SampleProjects\MVCSample\MVCSample.Services\bin\Debug\MVCSample.Services.pdb
+E:\Programs\SampleProjects\MVCSample\MVCSample.Services\obj\Debug\MVCSample.Services.csprojResolveAssemblyReference.cache
+E:\Programs\SampleProjects\MVCSample\MVCSample.Services\obj\Debug\MVCSample.Services.dll
+E:\Programs\SampleProjects\MVCSample\MVCSample.Services\obj\Debug\MVCSample.Services.pdb
+E:\Programs\SampleProjects\MVCSample\MVCSample.Services\bin\Debug\MVCSample.Services.dll.config
+E:\Programs\SampleProjects\MVCSample\MVCSample.Services\bin\Debug\EntityFramework.dll
+E:\Programs\SampleProjects\MVCSample\MVCSample.Services\bin\Debug\EntityFramework.SqlServer.dll
+E:\Programs\SampleProjects\MVCSample\MVCSample.Services\bin\Debug\MVCSample.Core.dll
+E:\Programs\SampleProjects\MVCSample\MVCSample.Services\bin\Debug\MVCSample.Data.dll
+E:\Programs\SampleProjects\MVCSample\MVCSample.Services\bin\Debug\MVCSample.Core.pdb
+E:\Programs\SampleProjects\MVCSample\MVCSample.Services\bin\Debug\MVCSample.Data.pdb
+E:\Programs\SampleProjects\MVCSample\MVCSample.Services\bin\Debug\EntityFramework.xml
+E:\Programs\SampleProjects\MVCSample\MVCSample.Services\bin\Debug\EntityFramework.SqlServer.xml
